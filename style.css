@@ -24,17 +24,13 @@ section {
     margin-top: 20px;
     background-color: rgb(230, 230, 230);
     justify-content: center;
-    
+
 }
 
 article {
     width: 270px;
     height: 324px;
     word-wrap: break-word;
-    font-weight: bold;
-
-
-
 
 }
 
@@ -46,10 +42,24 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.bold {
+p.bold {
     font-weight: bold;
-    padding: 10px;
+
+
 }
+
+.linespace {
+    line-height: 25px;
+
+}
+
+.button {
+    background-color: #4D4D4D;
+    color: white;
+    width: 35px;
+}
+
+
 
 
 
