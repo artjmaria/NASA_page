@@ -1,15 +1,30 @@
-main {
+body {
     width: 850px;
-    height: 450px;
     margin: 0 auto;
+
+}
+
+
+
+
+main {
+
+    height: 450px;
     background-image: url(./galaxy.jpg);
     color: white;
+}
+
+section {
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 article {
     width: 270px;
     height: 324px;
-    background-color: rgb(230,230,230);
+    background-color: rgb(230, 230, 230);
 }
 
 
@@ -58,10 +73,10 @@ article {
 
 .my-flex-container {
     /* border: 5pt solid EE621F; */
-    display: flex;
-    height: 324px;
-    flex-direction: row;
-    justify-content: space-between;
+display: flex;
+height: 324px;
+flex-direction: row;
+justify-content: space-between;
 
 
 }
@@ -93,4 +108,6 @@ article {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 80px;
-} */
+}
+
+*/
