@@ -16,12 +16,7 @@ body, html {
 
 }
 
-.contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 
-}
 
 .my-flex-container {
     border: 5pt solid EE621F;
@@ -34,14 +29,9 @@ body, html {
 article {
     border: 5pt solid #FDEFE1;
     width: 270px;
+    height: 324px;
 }
 
-.footer {
-    display: flex;
-    border: thick double #32a1ce;
-    justify-content: space-between;
-    align-content: space-around;
-}
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./galaxy.jpg");
