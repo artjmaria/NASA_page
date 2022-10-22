@@ -1,4 +1,48 @@
-body, html {
+main {
+    width: 850px;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url(./galaxy.jpg);
+    color: white;
+}
+
+article {
+    width: 270px;
+    height: 324px;
+    background-color: rgb(230,230,230);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body, html {
     height: 450px;
     width: 850px;
     margin: 0 auto;
@@ -49,4 +93,4 @@ article {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 80px;
-}
+} */
