@@ -45,6 +45,7 @@ h1 {
 p.bold {
     font-weight: bold;
     color: #0D0D0D;
+    margin-top: 30px;
 
 
 }
@@ -57,12 +58,34 @@ p.bold {
 .button {
     background-color: #4D4D4D;
     color: white;
-    width: 35px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    font-size: 17px;
+
 }
 
 p.linespace, p, label {
     color: #7A7A7A;
 }
+
+input#name {
+    width: 90%;
+    height: 20px;
+    border: none;
+    margin-bottom: 9px;
+}
+
+input#message {
+    width: 90%;
+    height: 100px;
+    border: none;
+
+}
+
+
+
+
 
 
 
